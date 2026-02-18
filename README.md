@@ -15,7 +15,7 @@ The solution is built using **ServiceNow Best Practices** for modern development
 ---
 
 ## 📂 File Inventory
-* [Technical Manual v2](./Technical_Manual_v2.txt) - Detailed, click-by-click build guide for manual replication.
+* [Technical_Manual_v2](./Technical_Manual_v2.txt) - Detailed, click-by-click build guide for manual replication.
 * [Catalog-With-Client-Script v2](./Catalog-With-Client-Script_v2.xml) - The portable Update Set containing the Catalog Item and Client Script logic.
 * [UpdateSet_v2.PNG](./UpdateSet_v2.PNG) - Screenshot evidence of the Captured Customer Updates within the Update Set.
 * [Output.PNG](./Output_v2.PNG) - Visual verification of the blue recommendation box appearing on the Service Portal.
