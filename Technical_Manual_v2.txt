@@ -1,0 +1,88 @@
+================================================================================
+TECHNICAL MANUAL: CATALOG ITEM RECOMMENDATION LOGIC (SERVICENOW ZURICH)
+Target Item: MacBook Pro
+Functionality: Contextual Software Recommendation
+================================================================================
+
+1. OVERVIEW
+-----------
+Implementation of an onChange client script that monitors the 'acrobat' 
+When the 'acrobat' variable is selected, the system suggests 'Adobe Photoshop' by anchoring a message to the 'Additional_software_requirements' text field.
+
+2. DEPLOYMENT CONTEXT (UPDATE SET)
+------------------------------------------
+1. Navigate to: System Update Sets > Local Update Sets.
+2. Create New: 'MacBook Pro - Software Recommendation v1.0'.
+3. Click [Submit and Make Current]. 
+4. Ensure all subsequent changes are captured in 'Customer Updates'.
+
+3. UI NAVIGATION & LOCATION
+---------------------------
+1. Navigate to: Service Catalog > Catalog Definitions > Maintain Items.
+2. Search for and open the MacBook Pro record Under Short description.
+3. Scroll to the bottom 'Related Lists' section.
+4. Click the [Catalog Client Scripts] tab.
+5. Click [New].
+
+4. FIELD SELECTIONS FOR CLIENT SCRIPT
+-------------------------------------
+- Name: Recommend Photoshop for Acrobat
+- Applies to: A Catalog Item
+- UI Type: Desktop
+- Type: onChange
+- Catalog item: Developer Laptop (Mac)
+- Variable name: acrobat
+- Applies on a Catalog Item view: Checked [X]
+- Applies on Requested Items: Checked [X]
+- Applies on Catalog Tasks: Checked [X]
+
+5. SCRIPT IMPLEMENTATION
+------------------------
+Copy/Paste the following into the Script field and SAVE.
+
+function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    
+    // 1. If the form is loading or the value is cleared, stop the script.
+    // This prevents the message from showing up empty or prematurely.
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    // 2. Logic Check: Since this script triggers on the 'acrobat' variable,
+    // we check if it has been selected (e.g., if it's a checkbox, value is 'true').
+    // If it's a select box, we check the choice value.
+    if (newValue == 'true' || newValue == 'acrobat' || newValue == 'yes') {
+        
+        // 3. Define the recommendation message per requirement.
+        var msg = "Recommendation: Adobe Photoshop as well, as it may also be needed for your work.";
+        
+        // 4. Show the message under the text field.
+        // NOTE: The name here must match your variable: Additional_software_requirements
+        g_form.showFieldMsg('Additional_software_requirements', msg, 'info');
+        
+    } else {
+        // 5. If they uncheck/deselect Acrobat, hide the recommendation.
+        g_form.hideFieldMsg('Additional_software_requirements');
+    }
+}
+
+6. VERIFICATION (TESTING)
+-------------------------
+1. Navigate to Service Catalog > Catalog Definitions > Maintain Items.
+2. Search for and open the MacBook Pro record Under Short description.
+3. In the top right header of the form (or under Related Links), click the Try It button.
+4. Select 'Acrobat' on the item form.
+5. Confirm blue info box appears under 'Additional_software_requirements'.
+6. Deselect 'Acrobat' and confirm the message disappears.
+7. Order the item and verify the message remains visible on the RITM and Task.
+
+7. MIGRATION (UPDATE SETS)
+--------------------------
+1. Ensure the 'Current' Update Set is active.
+2. Verify 'Catalog Client Script' appears in Customer Updates.
+3. Mark Update Set as 'Complete'.
+4. Export to XML for deployment to the target instance.
+
+================================================================================
+END OF MANUAL
+================================================================================
