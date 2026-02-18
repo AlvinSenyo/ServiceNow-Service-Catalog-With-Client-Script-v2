@@ -1,4 +1,6 @@
 # ServiceNow-Service-Catalog-With-Client-Script-v2
+This project optimizes the MacBook Pro catalog item by providing a contextual prompt. When a developer selects Adobe Acrobat, the system automatically suggests Adobe Photoshop via a field message.
+
 **Product:** ServiceNow Service Catalog  
 **Requirement:** Display a recommendation for Adobe Photoshop when a user orders a Developer Laptop (Mac) and selects Adobe Acrobat software.
 
