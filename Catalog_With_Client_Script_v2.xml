@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-02-18 18:29:35">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>MacBook Pro - Software Recommendation v1.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>52d63ac7c38f76908f78944ed401319c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-18 18:29:34</sys_created_on>
+<sys_id>a50987cbc303b6908f78944ed40131ab</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-18 18:29:34</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_774906834fbb4200086eeed18110c737</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item"&gt;&lt;sc_cat_item action="INSERT_OR_UPDATE"&gt;&lt;access_type/&gt;&lt;active&gt;true&lt;/active&gt;&lt;availability&gt;on_both&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;category display_value="Hardware"&gt;d258b953c611227a0146101fb1be7c31&lt;/category&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan/&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[&lt;p class="p1"&gt;&lt;span style="font-size: medium;"&gt;&lt;span class="s1"&gt;Ma&lt;/span&gt;&lt;span class="s1"&gt;cbook &lt;/span&gt;&lt;span style="font-family: arial,helvetica,sans-serif;"&gt;&lt;span class="s1"&gt;Pro&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p2"&gt;&lt;span style="font-family: arial,helvetica,sans-serif; font-size: small;"&gt;&lt;span class="s1"&gt;The Apple Macbook Pro is laptop that is second to none. It provides a Retina display that fights glare and weighs approximately five pounds. High powered enough to complete computing tasks..&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p3"&gt;&lt;span style="font-family: arial,helvetica,sans-serif; font-size: small;"&gt;&lt;span class="s1"&gt;Technical Specs:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class="ul1"&gt;&lt;li class="li4"&gt;&lt;span style="font-family: arial,helvetica,sans-serif; font-size: small;"&gt;&lt;span class="s1"&gt;Intel core i7 processor&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="li4"&gt;&lt;span style="font-family: arial,helvetica,sans-serif; font-size: small;"&gt;&lt;span class="s1"&gt;512GB PCIe-based flash storage&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="li4"&gt;&lt;span style="font-family: arial,helvetica,sans-serif; font-size: small;"&gt;&lt;span class="s1"&gt;Intel Iris Pro Graphics&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="li4"&gt;&lt;span style="font-family: arial,helvetica,sans-serif; font-size: small;"&gt;&lt;span class="s1"&gt;Backlit keyboard&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow display_value="Service Catalog item request"&gt;30f3d26187e92300e0ef0cf888cb0b91&lt;/flow_designer_flow&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon/&gt;&lt;ignore_price&gt;false&lt;/ignore_price&gt;&lt;image/&gt;&lt;list_price&gt;0&lt;/list_price&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Developer Laptop (Mac)&lt;/name&gt;&lt;no_attachment_v2&gt;false&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;false&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner/&gt;&lt;picture&gt;3a0bbdfe77d211105e3db2a07b5a991b&lt;/picture&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=774906834fbb4200086eeed18110c737&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;1499&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency&gt;yearly&lt;/recurring_frequency&gt;&lt;recurring_price&gt;100&lt;/recurring_price&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;sc_catalogs&gt;e0d08b13c3330100c8b837659bba8fb4&lt;/sc_catalogs&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;short_description&gt;Macbook Pro&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ryan.hale&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-11-22 21:06:23&lt;/sys_created_on&gt;&lt;sys_id&gt;774906834fbb4200086eeed18110c737&lt;/sys_id&gt;&lt;sys_mod_count&gt;25&lt;/sys_mod_count&gt;&lt;sys_name&gt;Developer Laptop (Mac)&lt;/sys_name&gt;&lt;sys_package display_value="Service Catalog core applications" source="com.glideapp.servicecatalog"&gt;ee7544e6486532108bb2a3a8cef7973d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_774906834fbb4200086eeed18110c737&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-18 17:27:23&lt;/sys_updated_on&gt;&lt;taxonomy_topic display_value="Computers"&gt;01a497a7c3053010069aec4b7d40dd14&lt;/taxonomy_topic&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;9&lt;/version&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=774906834fbb4200086eeed18110c737"/&gt;&lt;fx_price action="delete_multiple" query="id=774906834fbb4200086eeed18110c737"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;1499&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;774906834fbb4200086eeed18110c737&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;1499&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;ryan.hale&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-11-22 21:06:23&lt;/sys_created_on&gt;&lt;sys_id&gt;fb4906834fbb4200086eeed18110c737&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-18 15:58:43&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;100&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;recurring_price&lt;/field&gt;&lt;id&gt;774906834fbb4200086eeed18110c737&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;100&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;ryan.hale&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-11-22 21:06:23&lt;/sys_created_on&gt;&lt;sys_id&gt;7f4906834fbb4200086eeed18110c737&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-18 15:58:43&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>163501664</payload_hash>
+<remote_update_set display_value="MacBook Pro - Software Recommendation v1.0">a50987cbc303b6908f78944ed40131ab</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-18 18:29:34</sys_created_on>
+<sys_id>690987cbc303b6908f78944ed40131ac</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c71cad0e20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-18 18:29:34</sys_updated_on>
+<table/>
+<target_name>Developer Laptop (Mac)</target_name>
+<type>Catalog Item</type>
+<update_domain>global</update_domain>
+<update_guid>66cabacf5d8f7690db55cd489fb508ba</update_guid>
+<update_guid_history>66cabacf5d8f7690db55cd489fb508ba:163501664,d2ba3acfb58f7690e4136fa93e559e6a:1745608799,6a3ab68f328f769036767ead1446143c:-282706286,a539760f678f7690e709b336011215f6:547013074,5ea5f247208f7690e71962d9b55fc1a0:2129120209,e0743e831c8f7690ddd5e13e3fbe3753:-583739952,23b2f2cf1e4f7690e7c12531187ed5cc:998367183,32deaac7174f769066f7c91bc13576ef:-1714492978,48866e87740f7690abbd137be992b9c9:-132385843,0c866e87190f7690865584171b9fe6a5:-657167739</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_b81ea287c34f76908f78944ed40131a0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Developer Laptop (Mac)"&gt;774906834fbb4200086eeed18110c737&lt;/cat_item&gt;&lt;cat_variable&gt;IO:c85906834fbb4200086eeed18110c73a&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Recommend Photoshop on Acrobat Selection&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    
+    // 1. If the form is loading or the value is cleared, stop the script.
+    // This prevents the message from showing up empty or prematurely.
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    // 2. Logic Check: Since this script triggers on the 'acrobat' variable,
+    // we check if it has been selected (e.g., if it's a checkbox, value is 'true').
+    // If it's a select box, we check the choice value.
+    if (newValue == 'true' || newValue == 'acrobat' || newValue == 'yes') {
+        
+        // 3. Define the recommendation message per requirement.
+        var msg = "Recommendation: Adobe Photoshop as well, as it may also be needed for your work.";
+        
+        // 4. Show the message under the text field.
+        // NOTE: The name here must match your variable: Additional_software_requirements
+        g_form.showFieldMsg('Additional_software_requirements', msg, 'info');
+        
+    } else {
+        // 5. If they uncheck/deselect Acrobat, hide the recommendation.
+        g_form.hideFieldMsg('Additional_software_requirements');
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-18 16:35:14&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b81ea287c34f76908f78944ed40131a0&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Recommend Photoshop on Acrobat Selection&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_b81ea287c34f76908f78944ed40131a0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-18 17:27:22&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1860902875</payload_hash>
+<remote_update_set display_value="MacBook Pro - Software Recommendation v1.0">a50987cbc303b6908f78944ed40131ab</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-18 18:29:34</sys_created_on>
+<sys_id>e90987cbc303b6908f78944ed40131ab</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c71cad0fb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-18 18:29:34</sys_updated_on>
+<table/>
+<target_name>Recommend Photoshop on Acrobat Selection</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>6acabacf6d8f76907344b77b08a01eca</update_guid>
+<update_guid_history>6acabacf6d8f76907344b77b08a01eca:1860902875,e139760f248f7690d89e9c81168cf3fa:-1777999933,9aa5f247008f7690b32a84059643dea4:1860902875,20743e838e8f7690de35e5dc8439bf57:-1385160581,e7b2f2cf2b4f7690b040210f47f313dc:-669892275,36deaac7b64f76908baf9d71770fe0f3:-280540139</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
